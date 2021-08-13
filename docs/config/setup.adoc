@@ -14,22 +14,22 @@ endif::withRemarks[]
 
 // ":language:" denotes the language or the target document.
 // currently only DE and EN are supported
-:language: DE
+:language: EN
 
 // ":include_configuration:" always consists of the language, optionally
 // followed by ";REMARK"
 // additional markers might be configured here!
 :include_configuration: tags=**;{language}{remarks};!*
 
-:curriculum-short: MODULKUERZEL
+:curriculum-short: DSL
 
 ifeval::["{language}" == "DE"]
-:curriculum-name: MODULNAME IN VOLLER LAENGE
+:curriculum-name: Domänen-spezifische Sprachen
 :curriculum-header-title: iSAQB-Curriculum für Advanced Level: {curriculum-short}
 endif::[]
 
 ifeval::["{language}" == "EN"]
-:curriculum-name: FULL NAME OF MODULE
+:curriculum-name: Domain-Specific Languages
 :curriculum-header-title: iSAQB curriculum for Advanced Level: {curriculum-short}
 endif::[]
 

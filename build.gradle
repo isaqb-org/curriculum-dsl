@@ -19,7 +19,7 @@ ext {
   versionDate = new SimpleDateFormat("yyyyMMdd").format(today)
 
   project.version = project.file("./document.version").text
-  curriculumFileName = "curriculum-template"
+  curriculumFileName = "curriculum-dsl"
   addSuffixToCurriculum = { suffix ->
     for (extension in ["html", "pdf"]) {
       File source = new File("${buildDir}/${curriculumFileName}.${extension}")
@@ -65,20 +65,13 @@ class RenderCurriculumTask extends AsciidoctorTask {
 task buildDocs {
   group 'Documentation'
   description 'Grouping task for generating all languages in several formats'
-  dependsOn "includeLearningObjectives", "renderNoRemarksDE", "renderNoRemarksEN"
+  dependsOn "includeLearningObjectives",/* "renderNoRemarksDE",*/ "renderNoRemarksEN"
 }
 
 task renderNoRemarksDE(type: RenderCurriculumTask,
     constructorArgs: [curriculumFileName, versionDate, "DE", false]) {
   doLast {
     addSuffixToCurriculum("-de")
-  }
-}
-
-task renderWithRemarksDE(type: RenderCurriculumTask,
-     constructorArgs: [curriculumFileName, versionDate, "DE", true]) {
-  doLast {
-    addSuffixToCurriculum("-remarks-de")
   }
 }
 
@@ -89,12 +82,6 @@ task renderNoRemarksEN(type: RenderCurriculumTask,
   }
 }
 
-task renderWithRemarksEN(type: RenderCurriculumTask,
-     constructorArgs: [curriculumFileName, versionDate, "EN", true]) {
-  doLast {
-    addSuffixToCurriculum("-remarks-en")
-  }
-}
 
 apply from: 'scripts/includeLearningObjectives.gradle'
 

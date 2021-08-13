@@ -16,15 +16,13 @@ Maintainers and volunteer reviewers collaborate on GitHub to improve the curricu
 | Version | HTML | PDF
 
 | German
-| link:{curriculumFileName}-de.html[HTML]
-| link:{curriculumFileName}-de.pdf[PDF]
+| currently not available
+// link:{curriculumFileName}-de.html[HTML]
+| currently not available
+// link:{curriculumFileName}-de.pdf[PDF]
 
 | English
 | link:{curriculumFileName}-en.html[HTML]
 | link:{curriculumFileName}-en.pdf[PDF]
-
-| Español
-|
-| link:{curriculumFileName}-es.pdf[PDF]
 
 |===
