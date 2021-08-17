@@ -1,21 +1,22 @@
 // tag::DE[]
 === Was vermittelt das Modul „{curriculum-short}“?
 
-Das Modul präsentiert den Teilnehmerinnen und Teilnehmern {curriculum-name} als …
-Am Ende des Moduls kennen die Teilnehmerinnen und Teilnehmer … und können …
+Bei vielen Projekten sollen Benutzer:innen die Software in hohem Maß
+konfigurieren können.  Dies geht oft über das bloße Setzen von
+Konfigurationsoptionen hinaus: Viele Domänen enthalten komplexe
+benutzerdefinierte Regelwerke, Abläufe oder Beschreibungen von
+Domänenentitäten.  Es ist sinnvoll, in solchen Projekten explizit eine
+eigene Sprache für diese Konfigurationen zu definieren. Es entsteht
+eine _domänenspezifische Sprache_ oder _DSL_ (für _domain-specific
+language_).  Gut gemachte DSLs tragen in hohem Maße zum
+_separation of concerns_ bei, tragen zur Benutzbarkeit der Software
+ebenso bei wie zu einer ganzen Reihe architektonischer
+Qualitätsaspekte, darunter Konfigurierbarkeit und Modifizierbarkeit.
+Für Design und Implementierung einer DSL gibt es einen großen Korpus
+an Techniken und Erfahrung aus dem Programmiersprachen-Design und dem
+Compilerbau.  Dieses Modul macht Architekt:innen mit den wichtigsten
+Elementen dieses Korpus bekannt.  Dieser versetzt sie in die Lage, in
+der Architektur sinnvolle Stellen für DSLs zu finden, nützliche und
+benutzerfreundliche DSLs systematisch zu entwickeln und DSLs als
+integralen Aspekt des Architektur-Designs anzuwenden.
 // end::DE[]
-
-// tag::EN[]
-=== What does the module “{curriculum-short}” convey?
-
-The module presents {curriculum-short} to the participants …
-At the end of the module, the participants know … and are able to …
-// end::EN[]
-
-// tag::REMARK[]
-[NOTE]
-====
-Hier bitte das Modul bzw. dessen Lerninhalte zusammenfassend in 5-8 Sätzen beschreiben. Dabei `{curriculum-name}`
-nicht entfernen, beim Zusammenbauen wird dieser Platzhalter mit dem Modulnamen ersetzt.
-====
-// end::REMARK[]
