@@ -8,15 +8,47 @@ benutzerdefinierte Regelwerke, Abläufe oder Beschreibungen von
 Domänenentitäten.  Es ist sinnvoll, in solchen Projekten explizit eine
 eigene Sprache für diese Konfigurationen zu definieren. Es entsteht
 eine _domänenspezifische Sprache_ oder _DSL_ (für _domain-specific
-language_).  Gut gemachte DSLs tragen in hohem Maße zum
-_separation of concerns_ bei, tragen zur Benutzbarkeit der Software
-ebenso bei wie zu einer ganzen Reihe architektonischer
-Qualitätsaspekte, darunter Konfigurierbarkeit und Modifizierbarkeit.
+language_).  Gut gemachte DSLs:
+
+* tragen in hohem Maße zum _separation of concerns_ bei,
+* tragen zur Benutzbarkeit der Software bei,
+* verbessern eine ganzen Reihe architektonischer Qualitätsaspekte,
+  darunter Konfigurierbarkeit und Modifizierbarkeit.
+  
 Für Design und Implementierung einer DSL gibt es einen großen Korpus
 an Techniken und Erfahrung aus dem Programmiersprachen-Design und dem
 Compilerbau.  Dieses Modul macht Architekt:innen mit den wichtigsten
-Elementen dieses Korpus bekannt.  Dieser versetzt sie in die Lage, in
-der Architektur sinnvolle Stellen für DSLs zu finden, nützliche und
-benutzerfreundliche DSLs systematisch zu entwickeln und DSLs als
-integralen Aspekt des Architektur-Designs anzuwenden.
+Elementen dieses Korpus bekannt.  Dieser versetzt sie in die Lage:
+
+* in der Architektur sinnvolle Stellen für DSLs zu finden,
+* nützliche und benutzerfreundliche DSLs systematisch zu entwickeln
+ und
+* DSLs als integralen Aspekt des Architektur-Designs anzuwenden.
 // end::DE[]
+
+// tag::EN[]
+Many projects require a high degree of configurability by its
+users. While this can include setting mere configuration options,
+application domains may also use complex, user-defined rules, flows or
+entities. In such cases, devising a custom configuration language 
+helps manage complexity. The resulting language is
+a _domain-specific language_ (or _DSL_ for
+short). Well-designed DSLs
+
+* contribute to separation of concerns by decoupling configuration
+  from implementation,
+* improve usability of the software by providing a consistent view of
+  the domain rules, and
+* lay the foundations for some architectural quality goals, such as
+  configurability and malleability.
+
+Architects designing and implementing DSLs can draw from a large body
+of both scholarly material and practical experience in programming
+language design and compiler construction. This module gives an
+introduction to the most important aspects of this material. It
+enables them to
+
+* understand where a DSL fits into an overall architecture,
+* design useful and user-friendly DSL in a systematic fashion, and
+* consider DSLs as an integral technique in architecture design.
+// end::EN[]
