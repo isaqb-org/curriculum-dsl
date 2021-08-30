@@ -24,7 +24,7 @@ endif::withRemarks[]
 :curriculum-short: DSL
 
 ifeval::["{language}" == "DE"]
-:curriculum-name: Domänen-spezifische Sprachen
+:curriculum-name: Domänenspezifische Sprachen
 :curriculum-header-title: iSAQB-Curriculum für Advanced Level: {curriculum-short}
 endif::[]
 
