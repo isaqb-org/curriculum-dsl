@@ -45,6 +45,13 @@ ATTENTION: labels have to be non-numeric.
 - [[[leermakers,Leermakers 1993]]] Leermakers, René: The Functional Treatment of
 Parsing. Springer Science, 1993.
 
+**V**
+
+- [[[voelter,Völter et et al. 2014]]] Völter, Markus, Siegmun, Janet,
+  Berge,  Thorsten, Kolb Bernd. Towards user-friendly
+  projectional editors. In International Conference on Software
+  Language Engineering 2014. 41-61. Springer.
+  
 **W**
 
 - [[[wilhelm,Wilhelm et al. 2021]]]  Wilhelm, Reinhard, Seidl, Helmut,
