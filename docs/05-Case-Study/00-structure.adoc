@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Und so heißt Modul 5
+== Fallstudie
 // end::DE[]
 
 // tag::EN[]
-== And This is Module no 5
+== Case Study
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]

@@ -3,11 +3,11 @@
 // ====================================================
 
 // tag::DE[]
-== Viertes Modul, das ist sein Titel
+== Werkzeuge
 // end::DE[]
 
 // tag::EN[]
-== Fourth Module, This is its Title
+== Tools
 // end::EN[]
 
 include::01-duration-terms.adoc[{include_configuration}]
