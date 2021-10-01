@@ -1,35 +1,31 @@
 === {learning-goals}
 
 // tag::DE[]
-[[LZ-2-1]]
-==== LZ 2-1: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
-in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
-wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Literatur verwiesen werden.
-
-* Erstes Teilziel
-* Zweites Unterthema
-* Dritter Aspekt
-
-[[LZ-2-2]]
-==== LZ 2-2: Hier ist ein zweites Lernziel in diesem Kapitel
-tbd.
-
 // end::DE[]
 
 // tag::EN[]
 [[LG-2-1]]
-==== LG 2-1: TBD
-tbd.
+==== LG 2-1: Basics of semantics
+
+* Understand the difference between compilers and interpreters.
+* Understand the independence of a language's semantics and its (multiple) implementations.
+* Understand the difference between a specification and an implementation.
 
 [[LG-2-2]]
-==== LG 2-2: TBD
-tbd.
-// end::EN[]
+==== LG 2-2: Expressiveness
 
-// tag::REMARK[]
-[NOTE]
-====
-Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
-====
-// end::REMARK[]
+* Know various computation models, such as Lambda Calculus, Turing machines, rewriting systems, and finite state machines.
+* Understand the principle of least power, in which the least expressive computation model should be chosen to represent the business domain; and when to deviate from the principle.
+* Understand the connection between expressiveness and compilation (or interpretation).
+* Can isolate static and dynamic parts of computation.
+
+[[LG-2-3]]
+==== LG 2-3: Design of semantics
+
+* Know various types of semantics, such as denotational and operational semantics, as well as big- and small-step semantics.
+* Understand the connection between the semantics of the DSL and the semantics of the target languages (compilation) and/or host languages (interpretation).
+* Know how to define a semi-formal semantics of a DSL using a prose representation.
+* Know further tools for formal semantics of a DSL using modelling and specification languages.
+* Know how to establish an informal connection between the desired semantics of a DSL and the actual implementation, such as via automated and systematic testing, or tools provided by a host language.
+
+// end::EN[]
