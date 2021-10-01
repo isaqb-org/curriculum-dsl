@@ -13,29 +13,15 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 This section contains references that are cited in the curriculum.
 // end::EN[]
 
-// tag::REMARK[]
-[NOTE]
-====
-Aufbau eines Eintrags-Ankers:
-```
-- [[[label,Text der erscheint]]]
-```
-ACHTUNG: Die Labels dürfen nur Buchstaben beinhalten, keine Zahlen oder Sonderzeichen
+**B**
 
-= = =
-
-Structure of an anchor:
-```
-- [[[label,text that will be shown]]]
-```
-ATTENTION: labels have to be non-numeric.
-====
-// end::REMARK[]
+- [[[baader,Baader and Nipkow 1998]]] Baader, Franz, Nipkow, Tobias:
+  Term Rewriting and All That. Cambridge University Press, 1998.
 
 **C**
 
 - [[[culpepper,Culpepper et al. 2019]]] Culpepper, Ryan,
-  Felleisen,Matthias, Flatt, Matthew, Krishnamurthi, Shriram: From
+  Felleisen, Matthias, Flatt, Matthew, Krishnamurthi, Shriram: From
   Macros to DSLs: The Evolution of Racket. Summit on Advances in
   Programming Languages, 2019.
   https://cs.brown.edu/~sk/Publications/Papers/Published/cffk-macros-to-dsls/
@@ -49,6 +35,11 @@ ATTENTION: labels have to be non-numeric.
 
 - [[[nipkow,Nipkow and Klein 2014]]] Nipkow, Tobias, Klein, Gerwin:
   Concrete Semantics. Springer, 2014.
+
+**P**
+
+- [[[pierce,Pierce 2002]]] Pierce, Benjamin C.: Types and Programming Languages.
+  MIT Press, 2002.
 
 **V**
 
