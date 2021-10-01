@@ -1,7 +1,6 @@
 === {learning-goals}
 
 // tag::DE[]
-[[LZ-1-1]]
 // end::DE[]
 
 // tag::EN[]
@@ -39,12 +38,4 @@
   language design, with no clear boundaries.
 * Understand the role of macros in designing domain-specific syntax in
   Lisp-like languages.
-
 // end::EN[]
-
-// tag::REMARK[]
-[NOTE]
-====
-Die einzelnen Lernziele müssen nicht als einfache Aufzählungen mit Unterpunkten aufgeführt werden, sondern können auch gerne in ganzen Sätzen formuliert werden, welche die einzelnen Punkte (sofern möglich) integrieren.
-====
-// end::REMARK[]
