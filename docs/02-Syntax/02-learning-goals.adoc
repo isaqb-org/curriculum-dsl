@@ -15,7 +15,7 @@
 * Understand that it is possible to embed a DSL into a host
   language, avoiding (part of) syntax design altogether.
 
-==== LG 1-3: Formal grammars
+==== LG 1-2: Formal grammars
 
 * Understand the difference between lexical and structural syntax.
 * Understand regular and context-free grammars.
@@ -23,7 +23,7 @@
   structure imposed by parsers.
 * Understand the difference between LL and LR parsing algorithms.
 
-==== LG 1-4: Concrete and abstract syntax
+==== LG 1-3: Concrete and abstract syntax
 
 * Understand the role of abstract syntax in processing DSL language
   elements.
@@ -32,7 +32,7 @@
   languages along with the associated tooling, and projectional editing.
 * Understand the stratified design of syntax in Lisp-like languages.
 
-==== LG 1-5: Embedding into a host language
+==== LG 1-4: Embedding into a host language
 
 * Understand that there is a spectrum between library design and
   language design, with no clear boundaries.
