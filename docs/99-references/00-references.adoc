@@ -26,6 +26,13 @@ This section contains references that are cited in the curriculum.
   Programming Languages, 2019.
   https://cs.brown.edu/~sk/Publications/Papers/Published/cffk-macros-to-dsls/
 
+**E**
+
+- [[[elliott,Elliott and Hudak 1997]]] Elliott, Conal, Hudak, Paul:
+  Functional reactive animation.  In ACM SIGPLAN International
+  Conference on Functional Programming (ICFP '97). pages 263-273. ACM,
+  Amsterdam.
+
 **L**
 
 - [[[leermakers,Leermakers 1993]]] Leermakers, René: The Functional Treatment of
@@ -41,6 +48,10 @@ This section contains references that are cited in the curriculum.
 - [[[pierce,Pierce 2002]]] Pierce, Benjamin C.: Types and Programming Languages.
   MIT Press, 2002.
 
+- [[[eber,Peyton Jones and Eber 2003]]] Peyton Jones, Simon, Eber,
+   Jean-Marc: How to write a financial contract. Chapter in “The Fun
+   of Programming”, ed. Gibbons and de Moor, Palgrave Macmillan 2003.
+   
 **V**
 
 - [[[voelter,Völter  et al. 2014]]] Völter, Markus, Siegmun, Janet,

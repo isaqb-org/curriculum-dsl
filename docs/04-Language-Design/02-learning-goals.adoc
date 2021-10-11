@@ -11,4 +11,18 @@
 * Know various design criteria for a type system and practical examples, such as Java and Standard ML.
 * Know how to leverage a host or target language's type system to build a type system for a DSL, and alternatively know the basic principles behind designing a dedicated type system.
 * Understand the trade-offs between a typed and untyped DSL.
+
+==== LG 4-2: Compositionality
+
+* Understand the concept of compositionality - that the meaning of a
+  compound entity only depends on the meaning of its components, not
+  their internal structure
+* Understand the value of compositionality for domain modelling.
+* Know construction principles for (compositional) combinator libraries.
+* Understand how compositionality (or its absence) manifests itself in
+  DSL design.
+* Know examples from real projects where compositionality is a crucial
+  aspect of DSL design.
+
+
 // end::EN[]
