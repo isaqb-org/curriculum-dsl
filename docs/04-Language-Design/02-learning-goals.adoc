@@ -5,7 +5,7 @@
 
 // tag::EN[]
 [[LG-3-1]]
-==== LG 3-1: Type systems
+==== LG 4-1: Type systems
 
 * Understand the basics of type systems, including type inference.
 * Know various design criteria for a type system and practical examples, such as Java and Standard ML.

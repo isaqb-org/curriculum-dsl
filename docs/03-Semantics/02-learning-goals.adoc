@@ -5,14 +5,14 @@
 
 // tag::EN[]
 [[LG-2-1]]
-==== LG 2-1: Basics of semantics
+==== LG 3-1: Basics of semantics
 
 * Understand the difference between compilers and interpreters.
 * Understand the independence of a language's semantics and its (multiple) implementations.
 * Understand the difference between a specification and an implementation.
 
 [[LG-2-2]]
-==== LG 2-2: Expressiveness
+==== LG 3-2: Expressiveness
 
 * Know various computation models, such as Lambda Calculus, Turing machines, rewriting systems, and finite state machines.
 * Understand the principle of least power, in which the least expressive computation model should be chosen to represent the business domain; and when to deviate from the principle.
@@ -20,7 +20,7 @@
 * Can isolate static and dynamic parts of computation.
 
 [[LG-2-3]]
-==== LG 2-3: Design of semantics
+==== LG 3-3: Design of semantics
 
 * Know various types of semantics, such as denotational and operational semantics, as well as big- and small-step semantics.
 * Understand the connection between the semantics of the DSL and the semantics of the target languages (compilation) and/or host languages (interpretation).

@@ -3,7 +3,7 @@
 
 // tag::DE[]
 [[LZ-5-1]]
-==== LZ 5-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
+==== LZ 6-1: Dies ist das erste Lernziel in Kapitel 5, lorem ipsum sit dolor
 
 Hier wird beschrieben, was Teilnehmer:innen in diesem Lernziel lernen sollen. Das kann in Prosa-Text
 in ganzen Sätzen oder in Aufzählungen mit Unterpunkten erfolgen. Dabei kann auch unterschieden werden,
@@ -14,17 +14,17 @@ wie wichtig einzelne Aspekte des Lernziels sind. Es kann hier bereits auf Litera
 * Dritter Aspekt
 
 [[LZ-5-2]]
-==== LZ 5-2: Hier ist ein zweites Lernziel in diesem Kapitel
-tbd.
+==== LZ 6-2: Hier ist ein zweites Lernziel in diesem Kapitel
+tbd
 // end::DE[]
 
 // tag::EN[]
 [[LG-5-1]]
-==== LG 5-1: TBD
+==== LG 6-1: TBD
 tbd.
 
 [[LG-5-2]]
-==== LG 5-2: TBD
+==== LG 6-2: TBD
 tbd.
 // end::EN[]
 
