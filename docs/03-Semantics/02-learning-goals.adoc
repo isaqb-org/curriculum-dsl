@@ -4,14 +4,14 @@
 // end::DE[]
 
 // tag::EN[]
-[[LG-2-1]]
+[[LG-3-1]]
 ==== LG 3-1: Basics of semantics
 
 * Understand the difference between compilers and interpreters.
 * Understand the independence of a language's semantics and its (multiple) implementations.
 * Understand the difference between a specification and an implementation.
 
-[[LG-2-2]]
+[[LG-3-2]]
 ==== LG 3-2: Expressiveness
 
 * Know various computation models, such as Lambda Calculus, Turing machines, rewriting systems, and finite state machines.
@@ -19,7 +19,7 @@
 * Understand the connection between expressiveness and compilation (or interpretation).
 * Can isolate static and dynamic parts of computation.
 
-[[LG-2-3]]
+[[LG-3-3]]
 ==== LG 3-3: Design of semantics
 
 * Know various types of semantics, such as denotational and operational semantics, as well as big- and small-step semantics.
@@ -27,5 +27,4 @@
 * Know how to define a semi-formal semantics of a DSL using a prose representation.
 * Know further tools for formal semantics of a DSL using modelling and specification languages.
 * Know how to establish an informal connection between the desired semantics of a DSL and the actual implementation, such as via automated and systematic testing, or tools provided by a host language.
-
 // end::EN[]

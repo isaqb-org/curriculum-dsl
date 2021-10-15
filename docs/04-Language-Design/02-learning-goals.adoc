@@ -4,7 +4,7 @@
 // end::DE[]
 
 // tag::EN[]
-[[LG-3-1]]
+[[LG-4-1]]
 ==== LG 4-1: Type systems
 
 * Understand the basics of type systems, including type inference.
@@ -12,6 +12,7 @@
 * Know how to leverage a host or target language's type system to build a type system for a DSL, and alternatively know the basic principles behind designing a dedicated type system.
 * Understand the trade-offs between a typed and untyped DSL.
 
+[[LG-4-2]]
 ==== LG 4-2: Compositionality
 
 * Understand the concept of compositionality - that the meaning of a
@@ -23,6 +24,4 @@
   DSL design.
 * Know examples from real projects where compositionality is a crucial
   aspect of DSL design.
-
-
 // end::EN[]

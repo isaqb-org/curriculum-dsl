@@ -4,7 +4,7 @@
 // end::DE[]
 
 // tag::EN[]
-[[LG-1-1]]
+[[LG-2-1]]
 ==== LG 2-1: Syntax and language design
 
 * Understand that syntax is a matter of both ergonomics and taste, and
@@ -14,6 +14,7 @@
 * Understand that it is possible to embed a DSL into a host
   language, avoiding (part of) syntax design altogether.
 
+[[LG-2-2]]
 ==== LG 2-2: Formal grammars
 
 * Understand the difference between lexical and structural syntax.
@@ -23,6 +24,7 @@
 * Understand the difference between LL and LR parsing algorithms.
 * Know the Chomsky hierarchy.
 
+[[LG-2-3]]
 ==== LG 2-3: Concrete and abstract syntax
 
 * Understand the role of abstract syntax in processing DSL language
@@ -32,6 +34,7 @@
   languages along with the associated tooling, and projectional editing.
 * Understand the stratified design of syntax in Lisp-like languages.
 
+[[LG-2-4]]
 ==== LG 2-4: Embedding into a host language
 
 * Understand that there is a spectrum between library design and

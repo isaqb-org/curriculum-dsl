@@ -18,6 +18,10 @@ This section contains references that are cited in the curriculum.
 - [[[baader,Baader and Nipkow 1998]]] Baader, Franz, Nipkow, Tobias:
   Term Rewriting and All That. Cambridge University Press, 1998.
 
+- [[[bettini,Bettini 2016]]] Bettini, Lorenzo:
+  Implementing Domain-Specific Languages with Xtext and Xtend -
+  Second Edition. Packt, 2016.
+
 **C**
 
 - [[[culpepper,Culpepper et al. 2019]]] Culpepper, Ryan,
@@ -49,12 +53,22 @@ This section contains references that are cited in the curriculum.
   MIT Press, 2002.
 
 - [[[eber,Peyton Jones and Eber 2003]]] Peyton Jones, Simon, Eber,
-   Jean-Marc: How to write a financial contract. Chapter in “The Fun
-   of Programming”, ed. Gibbons and de Moor, Palgrave Macmillan 2003.
-   
+  Jean-Marc: How to write a financial contract. Chapter in “The Fun
+  of Programming”, ed. Gibbons and de Moor, Palgrave Macmillan 2003.
+
+**S**
+
+- [[[steinberg,Steinberg et al. 2008]]] Steinberg, Dave, Budinsky, Frank,
+  Paternostro, Marcelo, Merks, Ed: EMF: Eclipse Modeling Framework,
+  2nd edition. Addison-Wesley, 2008.
+
 **V**
 
-- [[[voelter,Völter  et al. 2014]]] Völter, Markus, Siegmun, Janet,
+- [[[voelter13,Völter 2013]]] Völter, Markus:
+  DSL Engineering: Designing, Implementing and Using Domain-Specific Languages.
+  2013
+
+- [[[voelter,Völter et al. 2014]]] Völter, Markus, Siegmun, Janet,
   Berge,  Thorsten, Kolb, Bernd: Towards user-friendly
   projectional editors. In International Conference on Software
   Language Engineering 2014. 41-61. Springer.
