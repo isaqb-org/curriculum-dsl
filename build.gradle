@@ -57,7 +57,9 @@ class RenderCurriculumTask extends AsciidoctorTask {
       'debug_adoc'        : false,
       'pdf-stylesdir'     : '../pdf-theme/themes',
       'pdf-fontsdir'      : '../pdf-theme/fonts',
-      'pdf-style'         : 'isaqb'
+      'pdf-style'         : 'isaqb',
+      'stylesheet'        : '../html-theme/adoc-github.css',
+      'stylesheet-dir'    : '../html-theme'
     ]
   }
 }
@@ -75,6 +77,13 @@ task renderNoRemarksDE(type: RenderCurriculumTask,
   }
 }
 
+task renderWithRemarksDE(type: RenderCurriculumTask,
+     constructorArgs: [curriculumFileName, versionDate, "DE", true]) {
+  doLast {
+    addSuffixToCurriculum("-remarks-de")
+  }
+}
+
 task renderNoRemarksEN(type: RenderCurriculumTask,
     constructorArgs: [curriculumFileName, versionDate, "EN", false]) {
   doLast {
@@ -82,6 +91,12 @@ task renderNoRemarksEN(type: RenderCurriculumTask,
   }
 }
 
+task renderWithRemarksEN(type: RenderCurriculumTask,
+     constructorArgs: [curriculumFileName, versionDate, "EN", true]) {
+  doLast {
+    addSuffixToCurriculum("-remarks-en")
+  }
+}
 
 apply from: 'scripts/includeLearningObjectives.gradle'
 
