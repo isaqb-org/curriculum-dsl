@@ -61,7 +61,7 @@ include::04-Language-Design/00-structure.adoc[{include_configuration}]
 include::05-Tools/00-structure.adoc[{include_configuration}]
 
 <<<
-include::06-Case-Study/00-structure.adoc[{include_configuration}]
+include::98-examples/00-examples.adoc[{include_configuration}]
 
 <<<
 include::99-references/00-references.adoc[{include_configuration}]
