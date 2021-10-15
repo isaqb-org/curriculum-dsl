@@ -13,6 +13,12 @@ Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum 
 This section contains references that are cited in the curriculum.
 // end::EN[]
 
+**A**
+
+- [[[aho,Aho et al. 2006]]] Aho, Alfred, Lam, Monica, Sethi, Ravi,
+  Ullman, Jeffrey: Compilers: Principles, Techniques, and Tools.
+  Addison Wesley, 2006.
+
 **B**
 
 - [[[baader,Baader and Nipkow 1998]]] Baader, Franz, Nipkow, Tobias:
@@ -37,6 +43,10 @@ This section contains references that are cited in the curriculum.
   Conference on Functional Programming (ICFP '97). pages 263-273. ACM,
   Amsterdam.
 
+- [[[evans,Evans 2003]]] Evans, Eric J.:
+  Domain-Driven Design: Tackling Complexity in the Heart of Software.
+  Addison-Wesley, 2003.
+
 **L**
 
 - [[[leermakers,Leermakers 1993]]] Leermakers, René: The Functional Treatment of
@@ -46,6 +56,9 @@ This section contains references that are cited in the curriculum.
 
 - [[[nipkow,Nipkow and Klein 2014]]] Nipkow, Tobias, Klein, Gerwin:
   Concrete Semantics. Springer, 2014.
+
+- [[[nystrom,Nytrom 2021]]] Nystrom, Robert: Crafting Interpreters.
+  Genever Benning, 2021.
 
 **P**
 
