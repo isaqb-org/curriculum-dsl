@@ -25,6 +25,4 @@
 * Know various types of semantics, such as denotational and operational semantics, as well as big- and small-step semantics.
 * Understand the connection between the semantics of the DSL and the semantics of the target languages (compilation) and/or host languages (interpretation).
 * Know how to define a semi-formal semantics of a DSL using a prose representation.
-* Know further tools for formal semantics of a DSL using modelling and specification languages.
-* Know how to establish an informal connection between the desired semantics of a DSL and the actual implementation, such as via automated and systematic testing, or tools provided by a host language.
 // end::EN[]

@@ -47,6 +47,23 @@ This section contains references that are cited in the curriculum.
   Domain-Driven Design: Tackling Complexity in the Heart of Software.
   Addison-Wesley, 2003.
 
+- [[[erdweg,Erdweg at el.]]] Sebastian, Erdweg et al.: Evaluating and
+  comparing language workbenches: Existing results and benchmarks for
+  the future.  In Computer Languages, Systems & Structures, 44:24–47, 2015.
+
+**F**
+
+- [[[felleisen,Felleisen et al. 2009]]] Felleisen, Matthias, Finder,
+  Robert Bruce, Flatt, Matthew: Semantics Engineering with PLT Redex .
+  MIT Press, 2009.
+
+**H**
+
+- [[[humer,Humer et al. 2014]]] Humer, Christian, et al.: A
+  Domain-Specific Language for Building Self-Optimizing AST
+  Interpreters. In Proceedings of the International Conference on
+  Generative Programming: Concepts and Experiences (GPCE'14), 2014.
+
 **L**
 
 - [[[leermakers,Leermakers 1993]]] Leermakers, René: The Functional Treatment of
