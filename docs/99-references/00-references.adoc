@@ -86,6 +86,10 @@ This section contains references that are cited in the curriculum.
   Jean-Marc: How to write a financial contract. Chapter in “The Fun
   of Programming”, ed. Gibbons and de Moor, Palgrave Macmillan 2003.
 
+- [[[pretnar,Pretnar 2015]]] Matija Pretnar: An Introduction to
+  Algebraic Effects and Handlers.  Electronic Notes in Theoretical
+  Computer Science 319 (2015) 19-35.
+
 **S**
 
 - [[[steinberg,Steinberg et al. 2008]]] Steinberg, Dave, Budinsky, Frank,

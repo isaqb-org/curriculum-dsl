@@ -24,4 +24,14 @@
   DSL design.
 * Know examples from real projects where compositionality is a crucial
   aspect of DSL design.
+
+=== LG 4-3: Effects
+
+* Understand the concept of effects.
+* Know examples for reader, writer, state, and control effects.
+* Understand the concept of a continuation.
+* Know typical examples of effects in typical DSLs.
+* Know implementation techniques for effects, specifically some
+  that allow dependency injection.
+
 // end::EN[]
