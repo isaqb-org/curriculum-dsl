@@ -102,7 +102,7 @@ This section contains references that are cited in the curriculum.
   DSL Engineering: Designing, Implementing and Using Domain-Specific Languages.
   2013
 
-- [[[voelter,Völter et al. 2014]]] Völter, Markus, Siegmun, Janet,
+- [[[voelter,Völter et al. 2014]]] Völter, Markus, Siegmund, Janet,
   Berge,  Thorsten, Kolb, Bernd: Towards user-friendly
   projectional editors. In International Conference on Software
   Language Engineering 2014. 41-61. Springer.
