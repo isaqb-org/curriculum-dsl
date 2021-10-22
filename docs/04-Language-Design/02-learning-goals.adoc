@@ -36,5 +36,6 @@
 * Know typical examples of effects in typical DSLs.
 * Know implementation techniques for effects, specifically some
   that allow dependency injection.
-
+* Understand the relationship between effects and hexagonal
+  architecture.
 // end::EN[]
