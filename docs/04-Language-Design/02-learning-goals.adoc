@@ -27,6 +27,7 @@
 * Know examples from real projects where compositionality is a crucial
   aspect of DSL design.
 
+[[LG-4-3]]
 === LG 4-3: Effects
 
 * Understand the concept of effects.
