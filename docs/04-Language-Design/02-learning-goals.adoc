@@ -13,7 +13,7 @@
 * Understand the trade-offs between a typed and untyped DSL.
 
 [[LG-4-2]]
-==== LG 4-2: Compositionality
+==== LG 4-2: Compositional Domain Modeling
 
 * Understand the concept of compositionality - that the meaning of a
   compound entity only depends on the meaning of its components, not
