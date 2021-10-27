@@ -28,7 +28,7 @@
   aspect of DSL design.
 
 [[LG-4-3]]
-=== LG 4-3: Effects
+==== LG 4-3: Effects
 
 * Understand the concept of effects.
 * Know examples for reader, writer, state, and control effects.
