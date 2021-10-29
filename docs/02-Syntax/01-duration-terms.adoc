@@ -14,7 +14,7 @@ Begriff 1, Begriff 2, Begriff 3
 |===
 
 === Terms and Principles
-Term 1, Term 2, Term 3
+host language, grammar, parsing, abstract syntax, Lisp
 // end::EN[]
 
 
