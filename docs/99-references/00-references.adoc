@@ -19,6 +19,10 @@ This section contains references that are cited in the curriculum.
   Ullman, Jeffrey: Compilers: Principles, Techniques, and Tools.
   Addison Wesley, 2006.
 
+- [[[alama,Alama 2020]]] Alama, Jesse: Language-Oriented Programming
+  in Racket - A Cultural Anthropology.  Gumroad, 2020.
+  https://jessealama.gumroad.com/l/lop-in-racket-cultural-anthro
+
 **B**
 
 - [[[baader,Baader and Nipkow 1998]]] Baader, Franz, Nipkow, Tobias:
