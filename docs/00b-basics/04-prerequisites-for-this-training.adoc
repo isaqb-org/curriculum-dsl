@@ -21,17 +21,19 @@ Teilnehmerinnen und Teilnehmer **sollten** folgende Kenntnisse und/oder Erfahrun
 
 Participants **should** have the following prerequisite knowledge:
 
-- Prerequisite 1
-- Prerequisite 2, etc.
+- basic computer-science education related to languages, i.e.
+  * formal grammars
+  * regular expressions
+  * difference between interpreters and compilers
+- the role of types in programming
 
 Knowledge in the following areas may be **helpful** for understanding some concepts:
 
-- Area 1:
-  * Knowledge 1
-  * Experience 2
-  * Knowledge 3
-  * Experience 4
-  * Understanding 5
+- familarity with the Chomsky hierarchy
+- compiler construction
+- tactical domain-driven design
+- combinator-library design
+- functional softare architecture
 // end::EN[]
 
 // tag::REMARK[]
