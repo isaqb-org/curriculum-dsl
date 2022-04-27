@@ -78,7 +78,7 @@ This section contains references that are cited in the curriculum.
 - [[[nipkow,Nipkow and Klein 2014]]] Nipkow, Tobias, Klein, Gerwin:
   Concrete Semantics. Springer, 2014.
 
-- [[[nystrom,Nytrom 2021]]] Nystrom, Robert: Crafting Interpreters.
+- [[[nystrom,Nystrom 2021]]] Nystrom, Robert: Crafting Interpreters.
   Genever Benning, 2021.
 
 **P**

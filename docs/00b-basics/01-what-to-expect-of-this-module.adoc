@@ -14,7 +14,7 @@ language_).  Gut gemachte DSLs:
 * tragen zur Benutzbarkeit der Software bei,
 * verbessern eine ganzen Reihe architektonischer Qualitätsaspekte,
   darunter Konfigurierbarkeit und Modifizierbarkeit.
-  
+
 Für Design und Implementierung einer DSL gibt es einen großen Korpus
 an Techniken und Erfahrung aus dem Programmiersprachen-Design und dem
 Compilerbau.  Dieses Modul macht Architekt:innen mit den wichtigsten
@@ -27,10 +27,12 @@ Elementen dieses Korpus bekannt.  Dieser versetzt sie in die Lage:
 // end::DE[]
 
 // tag::EN[]
+=== What does the module “{curriculum-short}” convey?
+
 Many projects require a high degree of configurability by its
 users. While this can include setting mere configuration options,
 application domains may also use complex, user-defined rules, flows or
-entities. In such cases, devising a custom configuration language 
+entities. In such cases, devising a custom configuration language
 helps manage complexity. The resulting language is
 a _domain-specific language_ (or _DSL_ for
 short). Well-designed DSLs
