@@ -24,14 +24,14 @@
 |===
 | Content
 | Recommended minimum duration (minutes)
-| 1. Introduction | 180
-| 2. xz | 150
-| 3. Lots of theory | 120
-| 4. xy and example | 180
-| 5. abc und d | 210
-| 6. Final example | 120
+| 1. Intro and Motivation | 60
+| 2. Syntax | 180
+| 3. Semantics | 300
+| 4. Language Design | 300
+| 5. Tools | 180
+| 6. Examples | 60
 | |
-| Total | 960 (16h)
+| Total | 1080 (18h)
 
 |===
 
