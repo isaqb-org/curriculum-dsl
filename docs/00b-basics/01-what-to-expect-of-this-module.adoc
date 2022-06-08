@@ -1,19 +1,30 @@
 // tag::DE[]
 === Was vermittelt das Modul „{curriculum-short}“?
 
-Bei vielen Projekten sollen Benutzer:innen die Software in hohem Maß
-konfigurieren können.  Dies geht oft über das bloße Setzen von
-Konfigurationsoptionen hinaus: Viele Domänen enthalten komplexe
-benutzerdefinierte Regelwerke, Abläufe oder Beschreibungen von
-Domänenentitäten.  Es ist sinnvoll, in solchen Projekten explizit eine
-eigene Sprache für diese Konfigurationen zu definieren. Es entsteht
+Viele Domänen enthalten komplexe
+Regelwerke, Abläufe oder Beschreibungen von
+Domänenentitäten.  Nicht immer ist die primäre Implementierungssprache
+eines Projekts auch die richtige Sprache, um diese Aspekte auszudrücken, zum
+Beispiel wenn
+
+- diese Aspekte von den Benutzer:innen konfiguriert werden können,
+- die Implementierungssprache zu ausdrucksstark ist, um Eigenschaften
+  Sicherheit, Laufzeit oder Termination statisch zu garantieren,
+- die Implementierungssprache zu ausdrucksschwach ist, um diese
+  Aspekte lesbar und nachvollziehbar zu beschreiben.
+
+In solchen Projekten explizit eine
+eigene Sprache für diese Aspekte zu definieren kann helfen, die
+dadurch entstehende Komplexität zu bändigen. Es entsteht
 eine _domänenspezifische Sprache_ oder _DSL_ (für _domain-specific
 language_).  Gut gemachte DSLs:
 
-* tragen in hohem Maße zum _separation of concerns_ bei,
+* tragen in hohem Maße zum _separation of concerns_ bei, indem
+  Beschreibung von Implementierung entkoppelt wird,
 * tragen zur Benutzbarkeit der Software bei,
 * verbessern eine ganzen Reihe architektonischer Qualitätsaspekte,
-  darunter Konfigurierbarkeit und Modifizierbarkeit.
+  darunter Adaptierbarkeit, Modifizierbarkeit, Analysierbarkeit und
+  Sicherheit.
 
 Für Design und Implementierung einer DSL gibt es einen großen Korpus
 an Techniken und Erfahrung aus dem Programmiersprachen-Design und dem
@@ -29,20 +40,28 @@ Elementen dieses Korpus bekannt.  Dieser versetzt sie in die Lage:
 // tag::EN[]
 === What does the module “{curriculum-short}” convey?
 
-Many projects require a high degree of configurability by its
-users. While this can include setting mere configuration options,
-application domains may also use complex, user-defined rules, flows or
-entities. In such cases, devising a custom configuration language
+Many application domains use complex, user-defined rules, flows or
+entities.  The primary implementation language of a project is not
+always appropriate for expressing these aspects.  This may be the case
+when:
+
+- these aspects are user-configurable
+- the implementation language is too expressive to guarantee
+  properties such as safety, run time or termination statically
+- the implementation language is not sufficiently expressive to
+  describe these aspects readably and comprehensibly.
+
+In such cases, devising a custom language for these aspects
 helps manage complexity. The resulting language is
 a _domain-specific language_ (or _DSL_ for
 short). Well-designed DSLs
 
-* contribute to separation of concerns by decoupling configuration
+* contribute to separation of concerns by decoupling description
   from implementation,
 * improve usability of the software by providing a consistent view of
   the domain rules, and
 * lay the foundations for some architectural quality goals, such as
-  configurability and malleability.
+  adaptability, modifiability, analysability, and security.
 
 Architects designing and implementing DSLs can draw from a large body
 of both scholarly material and practical experience in programming
