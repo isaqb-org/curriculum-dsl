@@ -19,12 +19,13 @@
   intended quality goals, including its usability, and will be harder
   to change the more code is written in the DSL.
 
+[[LG-1-1]]
 ==== LG 1-2: Definitions
 
 * Know the basic terms in the context of domain-specific languages: parser, compiler, interpreter, syntax, lexical syntax, abstract syntax, semantics, run-time, compile-time.
 * Understand the difference between a general-purpose programming language and a domain-specific language.
 
-[[LG-1-2]]
+[[LG-1-3]]
 ==== LG 1-3: Basics of modelling
 
 * Understand the connection between the business domain and the design of a domain-specific language.
@@ -32,6 +33,7 @@
 * Know how to identify possible applications of domain-specific languages in a given business domain.
 // end::EN[]
 
+[[LG-1-4]]
 ==== LG 1-4: Embedded vs. Stand-Alone DSLs
 
 * Understand that there is a spectrum between library design and
