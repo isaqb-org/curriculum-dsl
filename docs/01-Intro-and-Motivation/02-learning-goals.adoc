@@ -5,7 +5,7 @@
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: Requirements
+==== LG 1-1: Requirements and Architectural Relevance
 
 * Know possible requirements and conditions that might make a DSL a
   sensible architectural decision, such as an insufficiently
@@ -13,6 +13,11 @@
   user-defined rules, the need to restrict behavior of parts of the
   software, or the need to make parts of the software analysable in
   non-trivial ways.
+
+* Understand that the design of a DSL - including its syntax - may
+  have far-reaching consequences for a project, as it will impact its
+  intended quality goals, including its usability, and will be harder
+  to change the more code is written in the DSL.
 
 ==== LG 1-2: Definitions
 
