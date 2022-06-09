@@ -13,6 +13,8 @@
   language.
 * Understand that it is possible to embed a DSL into a host
   language, avoiding (part of) syntax design altogether.
+* Understand the role of macros in designing domain-specific syntax in
+  Lisp-like languages.
 
 [[LG-2-2]]
 ==== LG 2-2: Formal grammars
@@ -33,12 +35,4 @@
 * Understand the difference between traditional syntax of text-based
   languages along with the associated tooling, and projectional editing.
 * Understand the stratified design of syntax in Lisp-like languages.
-
-[[LG-2-4]]
-==== LG 2-4: Embedding into a host language
-
-* Understand that there is a spectrum between library design and
-  language design, with no clear boundaries.
-* Understand the role of macros in designing domain-specific syntax in
-  Lisp-like languages.
 // end::EN[]

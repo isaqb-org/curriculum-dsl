@@ -5,15 +5,32 @@
 
 // tag::EN[]
 [[LG-1-1]]
-==== LG 1-1: Definitions
+==== LG 1-1: Requirements
+
+* Know possible requirements and conditions that might make a DSL a
+  sensible architectural decision, such as an insufficiently
+  expressive implementation language, the need for complex
+  user-defined rules, the need to restrict behavior of parts of the
+  software, or the need to make parts of the software analysable in
+  non-trivial ways.
+
+==== LG 1-2: Definitions
 
 * Know the basic terms in the context of domain-specific languages: parser, compiler, interpreter, syntax, lexical syntax, abstract syntax, semantics, run-time, compile-time.
 * Understand the difference between a general-purpose programming language and a domain-specific language.
 
 [[LG-1-2]]
-==== LG 1-2: Basics of modelling
+==== LG 1-3: Basics of modelling
 
 * Understand the connection between the business domain and the design of a domain-specific language.
 * Know the basic principles of Domain-Driven Design and how they relate to domain-specific languages.
 * Know how to identify possible applications of domain-specific languages in a given business domain.
 // end::EN[]
+
+==== LG 1-4: Embedded vs. Stand-Alone DSLs
+
+* Understand that there is a spectrum between library design and
+  language design, with no clear boundaries.
+* Understand that designing and implementing a DSL does not have to be
+  a singular decision, but can progress gradually along that spectrum
+  until an economic and organizational sweet spot is reached. 
