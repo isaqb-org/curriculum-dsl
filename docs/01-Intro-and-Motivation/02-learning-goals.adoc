@@ -23,6 +23,7 @@
 ==== LG 1-2: Definitions
 
 * Know the basic terms in the context of domain-specific languages: parser, compiler, interpreter, syntax, lexical syntax, abstract syntax, semantics, run-time, compile-time.
+* Know the taxonomy of DSLs regarding types, embedded/stand-alone, interpreted/compiled.
 * Understand the difference between a general-purpose programming language and a domain-specific language.
 
 [[LG-1-3]]
