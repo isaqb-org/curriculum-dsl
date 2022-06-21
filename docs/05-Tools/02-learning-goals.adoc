@@ -32,11 +32,10 @@
 * Know at least one host language conducive to implementing embedded
   DSLs.
 
-[[LG-5-3]]
+[[LG-5-4]]
 ==== LG 5-4: Development Environments
 * Understand the relationship between syntax and IDE functionality.
 * Understand what requirements IDE tooling has of the language
   infrastructure, in order to provide syntax support, code navigation,
   and refactoring.
-
 // end::EN[]

@@ -4,7 +4,6 @@
 // end::DE[]
 
 // tag::EN[]
-
 [[LG-4-1]]
 ==== LG 4-1: General Design Issues
 
