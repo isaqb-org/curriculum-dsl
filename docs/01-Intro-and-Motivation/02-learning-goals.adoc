@@ -19,6 +19,9 @@
   intended quality goals, including its usability, and will be harder
   to change the more code is written in the DSL.
 
+* Know advantages and disadvantages of using a custom DSL over
+  an existing programming or configuration language.
+
 [[LG-1-2]]
 ==== LG 1-2: Definitions
 
