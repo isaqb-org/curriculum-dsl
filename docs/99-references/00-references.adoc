@@ -51,7 +51,7 @@ This section contains references that are cited in the curriculum.
   Domain-Driven Design: Tackling Complexity in the Heart of Software.
   Addison-Wesley, 2003.
 
-- [[[erdweg,Erdweg at el.]]] Sebastian, Erdweg et al.: Evaluating and
+- [[[erdweg,Erdweg at el. 2015]]] Sebastian, Erdweg et al.: Evaluating and
   comparing language workbenches: Existing results and benchmarks for
   the future.  In Computer Languages, Systems & Structures, 44:24–47, 2015.
 
@@ -68,10 +68,21 @@ This section contains references that are cited in the curriculum.
   Interpreters. In Proceedings of the International Conference on
   Generative Programming: Concepts and Experiences (GPCE'14), 2014.
 
+**K**
+
+- [[[kleppe,Kleppe 2008]]] Kleppe, Anneke: Software Language
+  Engineering: Creating Domain-Specific Languages Using Metamodels .
+  Addison-Wesley, 2008.
+
 **L**
 
 - [[[leermakers,Leermakers 1993]]] Leermakers, René: The Functional Treatment of
   Parsing. Springer Science, 1993.
+
+**M**
+
+- [[[metsker,Metsker 2001]]] Metsker, Steven John: Building Parsers With Java.
+  Addison Wesley, 2001.
 
 **N**
 
@@ -82,6 +93,9 @@ This section contains references that are cited in the curriculum.
   Genever Benning, 2021.
 
 **P**
+
+- [[[parr,Parr 2010]]] Parr, Terrence: Language Implementation Patterns.
+  O'Reilly, 2010.
 
 - [[[pierce,Pierce 2002]]] Pierce, Benjamin C.: Types and Programming Languages.
   MIT Press, 2002.
