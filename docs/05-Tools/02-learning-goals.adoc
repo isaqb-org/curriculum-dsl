@@ -8,7 +8,11 @@
 ==== LG 5-1: Syntax tools
 * Understand the mode of operation of parser and scanner generators.
 * Know at least one tool for generating parsers, or an embedded DSL
-  for parsers.
+  for parsers, such as
+  link:https://www.gnu.org/software/bison/[Bison],
+  link:https://www.s48.org/essence/[Essence],
+  link:https://www.antlr.org/[ANTLR], or
+  link:https://hackage.haskell.org/package/parsec[Parsec].
 
 [[LG-5-2]]
 ==== LG 5-2: Semantics tools
@@ -19,8 +23,12 @@
   automated and systematic testing, or tools provided by a host
   language.
 * Know at least one tool for specifying and executing the formal
-  semantics of a DSL using modelling and specification languages.
-* Know at least one tool for supporting the design of a type system.
+  semantics of a DSL using modelling and specification languages such
+  as link:https://redex.racket-lang.org/[PLT Redex] or
+  link:https://github.com/ott-lang/ott[Ott].
+* Know at least one tool for supporting the design of a type system
+  such as link:https://redex.racket-lang.org/[PLT Redex] or
+  link:https://www.jetbrains.com/help/mps/typesystem-debugging.html[Typesystem Trace].
 
 [[LG-5-3]]
 ==== LG 5-3: Languages
@@ -30,7 +38,10 @@
 * Know the concepts of staging and hygiene relevant for the use of
   macros.
 * Know at least one host language conducive to implementing embedded
-  DSLs.
+  DSLs such as link:https://racket-lang.org/[Racket],
+  link:https://www.haskell.org/[Haskell],
+  link:https://www.ruby-lang.org/[Ruby] or
+  link:https://kotlinlang.org/[Kotlin].
 
 [[LG-5-3]]
 ==== LG 5-4: Development Environments
@@ -38,5 +49,10 @@
 * Understand what requirements IDE tooling has of the language
   infrastructure, in order to provide syntax support, code navigation,
   and refactoring.
+* Know of the existence of tools to automate the creation on IDE
+  functionality such as link:https://racket-lang.org/[DrRacket],
+  link:https://www.eclipse.org/Xtext/[Xtext],
+  link:https://www.jetbrains.com/mps/[MPS] or
+  link:https://www.spoofax.dev/[Spoofax].
 
 // end::EN[]
