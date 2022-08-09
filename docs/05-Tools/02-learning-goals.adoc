@@ -43,7 +43,7 @@
   link:https://www.ruby-lang.org/[Ruby] or
   link:https://kotlinlang.org/[Kotlin].
 
-[[LG-5-3]]
+[[LG-5-4]]
 ==== LG 5-4: Development Environments
 * Understand the relationship between syntax and IDE functionality.
 * Understand what requirements IDE tooling has of the language
@@ -54,5 +54,4 @@
   link:https://www.eclipse.org/Xtext/[Xtext],
   link:https://www.jetbrains.com/mps/[MPS] or
   link:https://www.spoofax.dev/[Spoofax].
-
 // end::EN[]

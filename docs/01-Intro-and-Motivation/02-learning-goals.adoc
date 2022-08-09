@@ -19,10 +19,14 @@
   intended quality goals, including its usability, and will be harder
   to change the more code is written in the DSL.
 
-[[LG-1-1]]
+* Know advantages and disadvantages of using a custom DSL over
+  an existing programming or configuration language.
+
+[[LG-1-2]]
 ==== LG 1-2: Definitions
 
 * Know the basic terms in the context of domain-specific languages: parser, compiler, interpreter, syntax, lexical syntax, abstract syntax, semantics, run-time, compile-time.
+* Know the taxonomy of DSLs regarding types, embedded/stand-alone, interpreted/compiled.
 * Understand the difference between a general-purpose programming language and a domain-specific language.
 
 [[LG-1-3]]
@@ -31,7 +35,6 @@
 * Understand the connection between the business domain and the design of a domain-specific language.
 * Know the basic principles of Domain-Driven Design and how they relate to domain-specific languages.
 * Know how to identify possible applications of domain-specific languages in a given business domain.
-// end::EN[]
 
 [[LG-1-4]]
 ==== LG 1-4: Embedded vs. Stand-Alone DSLs
@@ -40,4 +43,5 @@
   language design, with no clear boundaries.
 * Understand that designing and implementing a DSL does not have to be
   a singular decision, but can progress gradually along that spectrum
-  until an economic and organizational sweet spot is reached. 
+  until an economic and organizational sweet spot is reached.
+// end::EN[]

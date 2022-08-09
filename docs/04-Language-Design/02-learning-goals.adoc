@@ -4,7 +4,6 @@
 // end::DE[]
 
 // tag::EN[]
-
 [[LG-4-1]]
 ==== LG 4-1: General Design Issues
 
@@ -31,12 +30,12 @@
 [[LG-4-3]]
 ==== LG 4-3: Compositional Domain Modeling
 
-* Understand the concept of compositionality - that the meaning of a
+* Understand the concept of compositionality: that the meaning of a
   compound entity only depends on the meaning of its components, not
-  their internal structure
+  their internal structure.
 * Understand the value of compositionality for domain modelling.
 * Understand the relationship between the ideas of "closure of
-  operations" in Domain-Driven Design and compositionality
+  operations" in Domain-Driven Design and compositionality.
 * Know construction principles for (compositional) combinator libraries.
 * Understand how compositionality (or its absence) manifests itself in
   DSL design.
