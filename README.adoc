@@ -1,8 +1,9 @@
 = https://isaqb.org[iSAQB] Advanced Level Curriculum DSL – Domain-Specific Languages
 
 
-**!!! This is a DRAFT for a future curriculum. It has not been sanctioned by the iSAQB Council yet. !!!**
-
+**This is a DRAFT for a future curriculum. It has been approved by the
+  iSAQB Council, but at this stage, we're still happy to receive
+  feedback and suggestions for improvement.**
 
 :toc:
 :toc-placement!:
