@@ -1,3 +1,3 @@
 === {references}
 
-<<wilhelm>>, <<leermakers>>, <<culpepper>>, <<voelter>>
+<<wilhelm>>, <<leermakers>>, <<culpepper>>, <<voelter>>, <<wasowski>>

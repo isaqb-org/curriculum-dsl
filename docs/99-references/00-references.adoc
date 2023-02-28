@@ -127,6 +127,10 @@ This section contains references that are cited in the curriculum.
 
 **W**
 
+- [[[wasowski,Wąsowski and Berger 2023]]] Wąsowski,  Andrzej, Berger
+  Thorsten:  Domain-Specific Languages - Effective Modeling,
+  Automation, and Reuse.  Springer 2023.
+
 - [[[wilhelm,Wilhelm et al. 2021]]]  Wilhelm, Reinhard, Seidl, Helmut,
   Hack, Sebastian: Compiler Design - Syntactic and Semantic
   Analysis. Springer-Verlag Berlin Heidelberg, 2013.
