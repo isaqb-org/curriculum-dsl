@@ -21,7 +21,12 @@ language_).  Gut gemachte DSLs:
 
 * tragen in hohem Maße zum _separation of concerns_ bei, indem
   Beschreibung von Implementierung entkoppelt wird,
-* tragen zur Benutzbarkeit der Software bei,
+* befähigen Benutzer:innen, selbständig mit der Software Aufgaben zu
+  lösen, für die sonst Entwickler:innen die Software erweitern
+  müssten,
+* ermöglichen Low-Code-Ansätze, bei denen Aufgaben mit weniger Code
+  gelöst werden können, als es in der Implementierungssprache des
+  Projekts möglich wäre, und
 * verbessern eine ganzen Reihe architektonischer Qualitätsaspekte,
   darunter Adaptierbarkeit, Modifizierbarkeit, Analysierbarkeit und
   Sicherheit.
@@ -58,8 +63,11 @@ short). Well-designed DSLs
 
 * contribute to separation of concerns by decoupling description
   from implementation,
-* improve usability of the software by providing a consistent view of
-  the domain rules, and
+* empower users to solve problems using the software that would
+  otherwise require developers to extend the software first,
+* enable low-code approaches that allow solving problems with less
+  code than would be possible using the implementation language of the
+  project, and
 * lay the foundations for some architectural quality goals, such as
   adaptability, modifiability, analysability, and security.
 
