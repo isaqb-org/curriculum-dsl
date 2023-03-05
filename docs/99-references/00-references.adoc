@@ -58,8 +58,12 @@ This section contains references that are cited in the curriculum.
 **F**
 
 - [[[felleisen,Felleisen et al. 2009]]] Felleisen, Matthias, Finder,
-  Robert Bruce, Flatt, Matthew: Semantics Engineering with PLT Redex .
+  Robert Bruce, Flatt, Matthew: Semantics Engineering with PLT Redex.
   MIT Press, 2009.
+
+**G**
+
+- [[[ghosh,Ghosh 2010]]] Ghosh Debasish: DSLs in Action.  Manning, 2010.
 
 **H**
 
