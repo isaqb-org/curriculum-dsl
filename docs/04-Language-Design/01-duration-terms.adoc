@@ -18,17 +18,3 @@ Begriff 1, Begriff 2, Begriff 3
 types, overloading, compositionality, combinator library, effect, continuation
 
 // end::EN[]
-
-// tag::REMARK[]
-[NOTE]
-====
-Überschrift in 00-structure.adoc ersetzen
-====
-// end::REMARK[]
-
-// tag::REMARK[]
-[NOTE]
-====
-Sinnvolle Zeiten für Dauer und Übungszeit eintragen, vernünftige Begriffe aufzählen.
-====
-// end::REMARK[]
