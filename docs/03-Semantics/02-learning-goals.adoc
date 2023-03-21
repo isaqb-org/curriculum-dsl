@@ -10,6 +10,7 @@
 * Understand the difference between compilers and interpreters.
 * Understand the independence of a language's semantics and its (multiple) implementations.
 * Understand the difference between a specification and an implementation.
+* Know the basic functionality of a JIT compiler that can work both as compiler and interpreter, and how it can be leveraged for DSLs, for example link:https://www.graalvm.org/[GraalVM].
 
 [[LG-3-2]]
 ==== LG 3-2: Expressiveness

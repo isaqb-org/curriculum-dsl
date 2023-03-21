@@ -29,6 +29,10 @@
 * Know at least one tool for supporting the design of a type system
   such as link:https://redex.racket-lang.org/[PLT Redex] or
   link:https://www.jetbrains.com/help/mps/typesystem-debugging.html[Typesystem Trace].
+* Know at least one tool for writing interpreters of a DSL in a
+  general-purpose host language, such as
+  link:https://www.eclipse.org/Xtext/[Xtext] or
+  link:https://www.graalvm.org/[GraalVM]
 
 [[LG-5-3]]
 ==== LG 5-3: Languages
