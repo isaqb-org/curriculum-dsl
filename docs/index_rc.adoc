@@ -28,5 +28,5 @@ image:https://img.shields.io/github/commits-since/isaqb-org/curriculum-dsl/lates
 |===
 
 == Changes compared to XXX
-- link:https://github.com/isaqb-org/curriculum-dsle/blob/main/CHANGELOG.md[CHANGELOG.md on GitHub]
+- link:https://github.com/isaqb-org/curriculum-dsl/blob/main/CHANGELOG.md[CHANGELOG.md on GitHub]
 // - link: [HTML diff to the latest curriculum] T.B.A.
