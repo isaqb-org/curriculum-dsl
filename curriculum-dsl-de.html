@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="Curriculum Domain-Specific Languages [DSL] – Release Candidate -">
-<title>Certified Professional for Software Architecture&#174; (CPSA)</title>
+<title>Curriculum fürCertified Professional forSoftware Architecture (CPSA)&#174;Advanced Level: ModulDSLDomänenspezifische Sprachen</title>
 <style>
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ========================================================================== HTML5 display definitions ========================================================================== */
@@ -1894,66 +1893,825 @@ h2 {
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="book">
+<body class="book toc2 toc-left">
 <div id="header">
-<h1><span class="image"><img src="images/isaqb-logo.jpg" alt="isaqb logo" width="150"></span>Certified Professional for Software Architecture<sup>&#174;</sup> (CPSA)</h1>
+<h1>Curriculum für<br><br>Certified Professional for<br>Software Architecture (CPSA)<sup>&#174;</sup><br><em>Advanced Level</em>: <br> Modul<br>DSL<br><br>Domänenspezifische Sprachen</h1>
 <div class="details">
-<span id="author" class="author">Curriculum Domain-Specific Languages [DSL] – Release Candidate -</span><br>
-<span id="revnumber"> 2023.1-RC1-EN,</span>
-<span id="revdate">20230323</span>
+<span id="revnumber"> 2023.1-rev0-DE,</span>
+<span id="revdate">20230508</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Inhaltsverzeichnis</div>
+<ul class="sectlevel1">
+<li><a href="#_verzeichnis_der_lernziele">Verzeichnis der Lernziele</a></li>
+<li><a href="#_einführung_allgemeines_zum_isaqb_advanced_level">Einführung: Allgemeines zum iSAQB Advanced Level</a>
+<ul class="sectlevel2">
+<li><a href="#_was_vermittelt_ein_advanced_level_modul">Was vermittelt ein Advanced Level Modul?</a></li>
+<li><a href="#_was_können_absolventen_des_advanced_level_cpsa_a">Was können Absolventen des Advanced Level (CPSA-A)?</a></li>
+<li><a href="#_voraussetzungen_zur_cpsa_a_zertifizierung">Voraussetzungen zur CPSA-A-Zertifizierung</a></li>
+</ul>
+</li>
+<li><a href="#_grundlegendes">Grundlegendes</a>
+<ul class="sectlevel2">
+<li><a href="#_was_vermittelt_das_modul_dsl">Was vermittelt das Modul „DSL“?</a></li>
+<li><a href="#_struktur_des_lehrplans_und_empfohlene_zeitliche_aufteilung">Struktur des Lehrplans und empfohlene zeitliche Aufteilung</a></li>
+<li><a href="#_dauer_didaktik_und_weitere_details">Dauer, Didaktik und weitere Details</a></li>
+<li><a href="#_gliederung_des_lehrplans">Gliederung des Lehrplans</a></li>
+<li><a href="#_ergänzende_informationen_begriffe_übersetzungen">Ergänzende Informationen, Begriffe, Übersetzungen</a></li>
+</ul>
+</li>
+<li><a href="#_einführung_und_motivation">1. Einführung und Motivation</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte">1.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele">1.2. Lernziele</a></li>
+<li><a href="#_referenzen">1.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_syntax">2. Syntax</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_2">2.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_2">2.2. Lernziele</a></li>
+<li><a href="#_referenzen_2">2.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_semantik">3. Semantik</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_3">3.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_3">3.2. Lernziele</a></li>
+<li><a href="#_referenzen_3">3.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_sprachdesign">4. Sprachdesign</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_4">4.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_4">4.2. Lernziele</a></li>
+<li><a href="#_referenzen_4">4.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_werkzeuge">5. Werkzeuge</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_5">5.1. Begriffe und Konzepte</a></li>
+<li><a href="#_lernziele_5">5.2. Lernziele</a></li>
+<li><a href="#_referenzen_5">5.3. Referenzen</a></li>
+</ul>
+</li>
+<li><a href="#_beispiele">6. Beispiele</a>
+<ul class="sectlevel2">
+<li><a href="#_begriffe_und_konzepte_6">6.1. Begriffe und Konzepte</a></li>
+</ul>
+</li>
+<li><a href="#_referenzen_6">Referenzen</a></li>
+</ul>
 </div>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
+<div style="page-break-after: always;"></div>
 <div class="paragraph">
-<p>The international Software Architecture Qualification Board (<a href="https://isaqb.org">iSAQB</a>) defines curricula on several levels for software architects.</p>
+<p><strong>&#169; (Copyright), International Software Architecture Qualification Board e. V.
+(iSAQB<sup>&#174;</sup> e. V.) 2023</strong></p>
 </div>
 <div class="paragraph">
-<p>The <strong>Release Candidates</strong> of the <strong>Domain-Specific Languages</strong> curriculum are currently maintained and published in English (EN)only. Maintainers of this curriculum and voluntary reviewers collaborate on <a href="https://github.com/isaqb-org">GitHub</a> to improve the curriculum.</p>
+<p>Die Nutzung des Lehrplans ist nur unter den nachfolgenden Voraussetzungen erlaubt:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Sie möchten das Zertifikat zum CPSA Certified Professional for Software Architecture Foundation Level<sup>&#174;</sup> oder CPSA Certified Professional for Software Architecture Advanced Level<sup>&#174;</sup> erwerben.
+Für den Erwerb des Zertifikats ist es gestattet, die Text-Dokumente und/oder Lehrpläne zu nutzen, indem eine Arbeitskopie für den eigenen Rechner erstellt wird. Soll eine darüber hinausgehende Nutzung der Dokumente und/oder Lehrpläne erfolgen, zum Beispiel zur Weiterverbreitung an Dritte, Werbung etc., bitte unter <a href="mailto:info@isaqb.org">info@isaqb.org</a> nachfragen.
+Es müsste dann ein eigener Lizenzvertrag geschlossen werden.</p>
+</li>
+<li>
+<p>Sind Sie Trainer oder Trainingsprovider, ist die Nutzung der Dokumente und/oder Lehrpläne nach Erwerb einer Nutzungslizenz möglich. Hierzu bitte unter <a href="mailto:info@isaqb.org">info@isaqb.org</a> nachfragen.
+Lizenzverträge, die alles umfassend regeln, sind vorhanden.</p>
+</li>
+<li>
+<p>Falls Sie weder unter die Kategorie 1. noch unter die Kategorie 2. fallen, aber dennoch die Dokumente und/oder Lehrpläne nutzen möchten, nehmen Sie bitte ebenfalls Kontakt unter <a href="mailto:info@isaqb.org">info@isaqb.org</a> zum iSAQB e. V. auf.
+Sie werden dort über die Möglichkeit des Erwerbs entsprechender Lizenzen im Rahmen der vorhandenen Lizenzverträge informiert und können die gewünschten Nutzungsgenehmigungen erhalten.</p>
+</li>
+</ol>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Wichtiger Hinweis</div>
+<div class="paragraph">
+<p><strong>Grundsätzlich weisen wir darauf hin, dass dieser Lehrplan urheberrechtlich geschützt ist.
+Alle Rechte an diesen Copyrights stehen ausschließlich dem International Software Architecture Qualification Board e. V. (iSAQB<sup>&#174;</sup> e. V.) zu.</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Die Abkürzung "e. V." ist Teil des offiziellen Namens des iSAQB und steht für "eingetragener Verein", der seinen Status als juristische Person nach deutschem Recht beschreibt.
+Der Einfachheit halber wird iSAQB e. V. im Folgenden ohne die Verwendung dieser Abkürzung als iSAQB bezeichnet.</p>
+</div>
+<div style="page-break-after: always;"></div>
+<!-- toc disabled -->
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_verzeichnis_der_lernziele">Verzeichnis der Lernziele</h2>
+<div class="sectionbody">
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_einführung_allgemeines_zum_isaqb_advanced_level">Einführung: Allgemeines zum iSAQB Advanced Level</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_was_vermittelt_ein_advanced_level_modul">Was vermittelt ein Advanced Level Modul?</h3>
+<div class="paragraph">
+<p>Das Modul kann unabhängig von einer CPSA-F-Zertifizierung besucht werden.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Der iSAQB Advanced Level bietet eine modulare Ausbildung in drei Kompetenzbereichen mit flexibel gestaltbaren Ausbildungswegen. Er berücksichtigt individuelle Neigungen und Schwerpunkte.</p>
+</li>
+<li>
+<p>Die Zertifizierung erfolgt als Hausarbeit. Die Bewertung und mündliche Prüfung wird durch vom iSAQB benannte Expert:innen vorgenommen.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_was_können_absolventen_des_advanced_level_cpsa_a">Was können Absolventen des Advanced Level (CPSA-A)?</h3>
+<div class="paragraph">
+<p>CPSA-A-Absolventen können:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>eigenständig und methodisch fundiert mittlere bis große IT-Systeme entwerfen</p>
+</li>
+<li>
+<p>in IT-Systemen mittlerer bis hoher Kritikalität technische und inhaltliche Verantwortung übernehmen</p>
+</li>
+<li>
+<p>Maßnahmen zur Erreichung von Qualitätsanforderungen konzeptionieren, entwerfen und dokumentieren sowie Entwicklungsteams bei der Umsetzung dieser Maßnahmen begleiten</p>
+</li>
+<li>
+<p>architekturrelevante Kommunikation in mittleren bis großen Entwicklungsteams steuern und durchführen</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_voraussetzungen_zur_cpsa_a_zertifizierung">Voraussetzungen zur CPSA-A-Zertifizierung</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>erfolgreiche Ausbildung und Zertifizierung zum Certified Professional for Software Architecture, Foundation Level<sup>&#174;</sup> (CPSA-F)</p>
+</li>
+<li>
+<p>mindestens drei Jahre Vollzeit-Berufserfahrung in der IT-Branche; dabei Mitarbeit an Entwurf und Entwicklung von mindestens zwei unterschiedlichen IT-Systemen</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ausnahmen sind auf Antrag zulässig (etwa: Mitarbeit in Open-Source-Projekten)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Aus- und Weiterbildung im Rahmen von iSAQB-Advanced-Level-Schulungen im Umfang von mindestens 70 Credit Points aus mindestens drei unterschiedlichen Kompetenzbereichen</p>
+</li>
+<li>
+<p>erfolgreiche Bearbeitung der CPSA-A-Zertifizierungsprüfung</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><br>
+<br></p>
+</div>
+<div class="paragraph text-center">
+<p><span class="image"><img src="images/00-preamble/cpsa-a-logo.png" alt="Certified Professional for Software Architecture<sup>&#174;</sup> Advanced Level (CPSA-A)"></span></p>
+</div>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_current_release_candidate_v2023_1">Current Release Candidate v2023.1</h2>
+<h2 id="_grundlegendes">Grundlegendes</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_was_vermittelt_das_modul_dsl">Was vermittelt das Modul „DSL“?</h3>
 <div class="paragraph">
-<p><span class="image"><img src="https://img.shields.io/github/last-commit/isaqb-org/curriculum-dsl/main.svg" alt="Last commit"></span>
-<span class="image"><a class="image" href="https://github.com/isaqb-org/curriculum-dsl/graphs/contributors"><img src="https://img.shields.io/github/contributors/isaqb-org/curriculum-dsl.svg" alt="Contributors"></a></span>
-<span class="image"><a class="image" href="https://github.com/isaqb-org/curriculum-dsl/issues"><img src="https://img.shields.io/github/issues/isaqb-org/curriculum-dsl.svg" alt="Issues"></a></span>
-<span class="image"><a class="image" href="https://github.com/isaqb-org/curriculum-dsl/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aclosed+"><img src="https://img.shields.io/github/issues-closed/isaqb-org/curriculum-dsl.svg" alt="Issues closed"></a></span>
-<span class="image"><img src="https://img.shields.io/github/commits-since/isaqb-org/curriculum-dsl/latest.svg" alt="latest"></span></p>
+<p>Viele Domänen enthalten komplexe
+Regelwerke, Abläufe oder Beschreibungen von
+Domänenentitäten.  Nicht immer ist die primäre Implementierungssprache
+eines Projekts auch die richtige Sprache, um diese Aspekte auszudrücken, zum
+Beispiel wenn</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>diese Aspekte von den Benutzer:innen konfiguriert werden können,</p>
+</li>
+<li>
+<p>die Implementierungssprache zu ausdrucksstark ist, um Eigenschaften
+Sicherheit, Laufzeit oder Termination statisch zu garantieren,</p>
+</li>
+<li>
+<p>die Implementierungssprache zu ausdrucksschwach ist, um diese
+Aspekte lesbar und nachvollziehbar zu beschreiben.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In solchen Projekten explizit eine
+eigene Sprache für diese Aspekte zu definieren kann helfen, die
+dadurch entstehende Komplexität zu bändigen. Es entsteht
+eine <em>domänenspezifische Sprache</em> oder <em>DSL</em> (für <em>domain-specific
+language</em>).  Gut gemachte DSLs:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>tragen in hohem Maße zum <em>separation of concerns</em> bei, indem
+Beschreibung von Implementierung entkoppelt wird,</p>
+</li>
+<li>
+<p>befähigen Benutzer:innen, selbständig mit der Software Aufgaben zu
+lösen, für die sonst Entwickler:innen die Software erweitern
+müssten,</p>
+</li>
+<li>
+<p>ermöglichen Low-Code-Ansätze, bei denen Aufgaben mit weniger Code
+gelöst werden können, als es in der Implementierungssprache des
+Projekts möglich wäre, und</p>
+</li>
+<li>
+<p>verbessern eine ganzen Reihe architektonischer Qualitätsaspekte,
+darunter Adaptierbarkeit, Modifizierbarkeit, Analysierbarkeit und
+Sicherheit.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Für Design und Implementierung einer DSL gibt es einen großen Korpus
+an Techniken und Erfahrung aus dem Programmiersprachen-Design und dem
+Compilerbau.  Dieses Modul macht Architekt:innen mit den wichtigsten
+Elementen dieses Korpus bekannt.  Dieser versetzt sie in die Lage:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>in der Architektur sinnvolle Stellen für DSLs zu finden,</p>
+</li>
+<li>
+<p>nützliche und benutzerfreundliche DSLs systematisch zu entwickeln
+und</p>
+</li>
+<li>
+<p>DSLs als integralen Aspekt des Architektur-Designs anzuwenden.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_struktur_des_lehrplans_und_empfohlene_zeitliche_aufteilung">Struktur des Lehrplans und empfohlene zeitliche Aufteilung</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Version</th>
-<th class="tableblock halign-left valign-top">HTML</th>
-<th class="tableblock halign-left valign-top">PDF</th>
+<th class="tableblock halign-left valign-top">Inhalt</th>
+<th class="tableblock halign-right valign-top">Empfohlene Mindestdauer (min)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">English</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="curriculum-dsl-en.html">HTML</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="curriculum-dsl-en.pdf">PDF</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1. Thema mit Einleitung</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">180</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2. Thema über xz</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">150</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3. Thema mit viel Theorie</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">120</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4. Thema mit xy und Beispiel</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">180</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5. Thema mit abc und d</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">210</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6. Thema mit Abschlussbeispiel</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">120</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-right valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Summe</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">960 (16h)</p></td>
 </tr>
 </tbody>
 </table>
 </div>
+<div class="sect2">
+<h3 id="_dauer_didaktik_und_weitere_details">Dauer, Didaktik und weitere Details</h3>
+<div class="paragraph">
+<p>Die unten genannten Zeiten sind Empfehlungen. Die Dauer einer Schulung zum Modul DSL
+sollte mindestens **3** Tage betragen, kann aber länger sein.
+Anbieter können sich durch Dauer, Didaktik, Art und Aufbau der Übungen sowie der detaillierten Kursgliederung voneinander unterscheiden.
+Insbesondere die Art der Beispiele und Übungen lässt der Lehrplan komplett offen.</p>
 </div>
-<div class="sect1">
-<h2 id="_changes_compared_to_xxx">Changes compared to XXX</h2>
-<div class="sectionbody">
+<div class="paragraph">
+<p>Lizenzierte Schulungen zu DSL tragen zur Zulassung zur abschließenden Advanced-Level-Zertifizierungsprüfung folgende Credit Points) bei:</p>
+</div>
+<table class="tableblock frame-none grid-rows stripes-none stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Methodische Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">**10** Punkte</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technische Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">**10** Punkte</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kommunikative Kompetenz:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">**10** Punkte</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_gliederung_des_lehrplans">Gliederung des Lehrplans</h3>
+<div class="paragraph">
+<p>Die einzelnen Abschnitte des Lehrplans sind gemäß folgender Gliederung beschrieben:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://github.com/isaqb-org/curriculum-dsl/blob/main/CHANGELOG.md">CHANGELOG.md on GitHub</a></p>
+<p><strong>Begriffe/Konzepte</strong>: Wesentliche Kernbegriffe dieses Themas.</p>
+</li>
+<li>
+<p><strong>Unterrichts-/Übungszeit</strong>: Legt die Unterrichts- und Übungszeit fest, die für dieses Thema bzw. dessen Übung in einer akkreditierten Schulung mindestens aufgewendet werden muss.</p>
+</li>
+<li>
+<p><strong>Lernziele</strong>: Beschreibt die zu vermittelnden Inhalte inklusive ihrer Kernbegriffe und -konzepte.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Dieser Abschnitt skizziert damit auch die zu erwerbenden Kenntnisse in entsprechenden Schulungen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ergänzende_informationen_begriffe_übersetzungen">Ergänzende Informationen, Begriffe, Übersetzungen</h3>
+<div class="paragraph">
+<p>Soweit für das Verständnis des Lehrplans erforderlich, haben wir Fachbegriffe ins <a href="https://github.com/isaqb-org/glossary">iSAQB-Glossar</a> aufgenommen, definiert und bei Bedarf durch die Übersetzungen der Originalliteratur ergänzt.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_einführung_und_motivation">1. Einführung und Motivation</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 60 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 0 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte">1.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Begriff 1, Begriff 2, Begriff 3</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele">1.2. Lernziele</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_referenzen">1.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#aho">[Aho et al. 2006]</a>, <a href="#evans">[Evans 2003]</a>, <a href="#nystrom">[Nystrom 2021]</a>, <a href="#wasowski">[Wąsowski and Berger 2023]</a>, <a href="#ghosh">[Ghosh 2010]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_syntax">2. Syntax</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 120 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 60 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_2">2.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Begriff 1, Begriff 2, Begriff 3</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_2">2.2. Lernziele</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_referenzen_2">2.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#wilhelm">[Wilhelm et al. 2021]</a>, <a href="#leermakers">[Leermakers 1993]</a>, <a href="#culpepper">[Culpepper et al. 2019]</a>, <a href="#voelter">[Völter et al. 2014]</a>, <a href="#wasowski">[Wąsowski and Berger 2023]</a>, <a href="#ghosh">[Ghosh 2010]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_semantik">3. Semantik</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 180 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 120 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_3">3.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Begriff 1, Begriff 2, Begriff 3</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_3">3.2. Lernziele</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_referenzen_3">3.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#nipkow">[Nipkow and Klein 2014]</a>, <a href="#baader">[Baader and Nipkow 1998]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sprachdesign">4. Sprachdesign</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 180 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 120 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_4">4.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Begriff 1, Begriff 2, Begriff 3</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_4">4.2. Lernziele</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_referenzen_4">4.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#pierce">[Pierce 2002]</a>, <a href="#eber">[Peyton Jones and Eber 2003]</a>, <a href="#elliott">[Elliott and Hudak 1997]</a>, <a href="#pretnar">[Pretnar 2015]</a>, <a href="#alama">[Alama 2020]</a>, <a href="#wasowski">[Wąsowski and Berger 2023]</a>, <a href="#ghosh">[Ghosh 2010]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_werkzeuge">5. Werkzeuge</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 120 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 60 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_5">5.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Begriff 1, Begriff 2, Begriff 3</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lernziele_5">5.2. Lernziele</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_referenzen_5">5.3. Referenzen</h3>
+<div class="paragraph">
+<p><a href="#bettini">[Bettini 2016]</a>, <a href="#steinberg">[Steinberg et al. 2008]</a>, <a href="#voelter13">[Völter 2013]</a>, <a href="#felleisen">[Felleisen et al. 2009]</a>, <a href="#erdweg">[Erdweg at el. 2015]</a>, <a href="#humer">[Humer et al. 2014]</a>, <a href="#parr">[Parr 2010]</a>, <a href="#kleppe">[Kleppe 2008]</a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_beispiele">6. Beispiele</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer: 60 Min.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungszeit: 0 Min.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Dieser Abschnitt ist nicht prüfungsrelevant.</p>
+</div>
+<div class="sect2">
+<h3 id="_begriffe_und_konzepte_6">6.1. Begriffe und Konzepte</h3>
+<div class="paragraph">
+<p>Innerhalb jeder lizenzierten Schulung muss mindestens ein Beispiel für DSL vorgestellt werden.</p>
+</div>
+<div class="paragraph">
+<p>Art und Ausprägung der vorgestellten Beispiele können von der Schulung bzw. den Interessen der Teilnehmer abhängen und werden seitens iSAQB nicht vorgegeben.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_referenzen_6">Referenzen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dieser Abschnitt enthält Quellenangaben, die ganz oder teilweise im Curriculum referenziert werden.</p>
+</div>
+<div class="paragraph">
+<p><strong>A</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="aho"></a>[Aho et al. 2006] Aho, Alfred, Lam, Monica, Sethi, Ravi,
+Ullman, Jeffrey: Compilers: Principles, Techniques, and Tools.
+Addison Wesley, 2006.</p>
+</li>
+<li>
+<p><a id="alama"></a>[Alama 2020] Alama, Jesse: Language-Oriented Programming
+in Racket - A Cultural Anthropology.  Gumroad, 2020.
+<a href="https://jessealama.gumroad.com/l/lop-in-racket-cultural-anthro" class="bare">https://jessealama.gumroad.com/l/lop-in-racket-cultural-anthro</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>B</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="baader"></a>[Baader and Nipkow 1998] Baader, Franz, Nipkow, Tobias:
+Term Rewriting and All That. Cambridge University Press, 1998.</p>
+</li>
+<li>
+<p><a id="bettini"></a>[Bettini 2016] Bettini, Lorenzo:
+Implementing Domain-Specific Languages with Xtext and Xtend -
+Second Edition. Packt, 2016.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>C</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="culpepper"></a>[Culpepper et al. 2019] Culpepper, Ryan,
+Felleisen, Matthias, Flatt, Matthew, Krishnamurthi, Shriram: From
+Macros to DSLs: The Evolution of Racket. Summit on Advances in
+Programming Languages, 2019.
+<a href="https://cs.brown.edu/~sk/Publications/Papers/Published/cffk-macros-to-dsls/" class="bare">https://cs.brown.edu/~sk/Publications/Papers/Published/cffk-macros-to-dsls/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>E</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="elliott"></a>[Elliott and Hudak 1997] Elliott, Conal, Hudak, Paul:
+Functional reactive animation.  In ACM SIGPLAN International
+Conference on Functional Programming (ICFP '97). pages 263-273. ACM,
+Amsterdam.</p>
+</li>
+<li>
+<p><a id="evans"></a>[Evans 2003] Evans, Eric J.:
+Domain-Driven Design: Tackling Complexity in the Heart of Software.
+Addison-Wesley, 2003.</p>
+</li>
+<li>
+<p><a id="erdweg"></a>[Erdweg at el. 2015] Sebastian, Erdweg et al.: Evaluating and
+comparing language workbenches: Existing results and benchmarks for
+the future.  In Computer Languages, Systems &amp; Structures, 44:24–47, 2015.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>F</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="felleisen"></a>[Felleisen et al. 2009] Felleisen, Matthias, Finder,
+Robert Bruce, Flatt, Matthew: Semantics Engineering with PLT Redex.
+MIT Press, 2009.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>G</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="ghosh"></a>[Ghosh 2010] Ghosh Debasish: DSLs in Action.  Manning, 2010.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>H</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="humer"></a>[Humer et al. 2014] Humer, Christian, et al.: A
+Domain-Specific Language for Building Self-Optimizing AST
+Interpreters. In Proceedings of the International Conference on
+Generative Programming: Concepts and Experiences (GPCE'14), 2014.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>K</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="kleppe"></a>[Kleppe 2008] Kleppe, Anneke: Software Language
+Engineering: Creating Domain-Specific Languages Using Metamodels .
+Addison-Wesley, 2008.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>L</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="leermakers"></a>[Leermakers 1993] Leermakers, René: The Functional Treatment of
+Parsing. Springer Science, 1993.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>M</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="metsker"></a>[Metsker 2001] Metsker, Steven John: Building Parsers With Java.
+Addison Wesley, 2001.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>N</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="nipkow"></a>[Nipkow and Klein 2014] Nipkow, Tobias, Klein, Gerwin:
+Concrete Semantics. Springer, 2014.</p>
+</li>
+<li>
+<p><a id="nystrom"></a>[Nystrom 2021] Nystrom, Robert: Crafting Interpreters.
+Genever Benning, 2021.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>P</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="parr"></a>[Parr 2010] Parr, Terrence: Language Implementation Patterns.
+O&#8217;Reilly, 2010.</p>
+</li>
+<li>
+<p><a id="pierce"></a>[Pierce 2002] Pierce, Benjamin C.: Types and Programming Languages.
+MIT Press, 2002.</p>
+</li>
+<li>
+<p><a id="eber"></a>[Peyton Jones and Eber 2003] Peyton Jones, Simon, Eber,
+Jean-Marc: How to write a financial contract. Chapter in “The Fun
+of Programming”, ed. Gibbons and de Moor, Palgrave Macmillan 2003.</p>
+</li>
+<li>
+<p><a id="pretnar"></a>[Pretnar 2015] Matija Pretnar: An Introduction to
+Algebraic Effects and Handlers.  Electronic Notes in Theoretical
+Computer Science 319 (2015) 19-35.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>S</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="steinberg"></a>[Steinberg et al. 2008] Steinberg, Dave, Budinsky, Frank,
+Paternostro, Marcelo, Merks, Ed: EMF: Eclipse Modeling Framework,
+2nd edition. Addison-Wesley, 2008.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>V</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="voelter13"></a>[Völter 2013] Völter, Markus:
+DSL Engineering: Designing, Implementing and Using Domain-Specific Languages.
+2013</p>
+</li>
+<li>
+<p><a id="voelter"></a>[Völter et al. 2014] Völter, Markus, Siegmund, Janet,
+Berge,  Thorsten, Kolb, Bernd: Towards user-friendly
+projectional editors. In International Conference on Software
+Language Engineering 2014. 41-61. Springer.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>W</strong></p>
+</div>
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="wasowski"></a>[Wąsowski and Berger 2023] Wąsowski,  Andrzej, Berger
+Thorsten:  Domain-Specific Languages - Effective Modeling,
+Automation, and Reuse.  Springer 2023.</p>
+</li>
+<li>
+<p><a id="wilhelm"></a>[Wilhelm et al. 2021]  Wilhelm, Reinhard, Seidl, Helmut,
+Hack, Sebastian: Compiler Design - Syntactic and Semantic
+Analysis. Springer-Verlag Berlin Heidelberg, 2013.</p>
 </li>
 </ul>
 </div>
@@ -1962,8 +2720,8 @@ h2 {
 </div>
 <div id="footer">
 <div id="footer-text">
- 2023.1-RC1-EN<br>
-Last updated 2023-03-23 19:12:22 UTC
+ 2023.1-rev0-DE<br>
+Last updated 2023-05-08 14:39:05 UTC
 </div>
 </div>
 </body>
