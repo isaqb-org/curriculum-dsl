@@ -44,25 +44,12 @@ Via HTTPS:
 git clone https://github.com/isaqb-org/curriculum-dsl.git --recursive
 ----
 --
-. Build the project with http://www.gradle.com[gradle] (you need a locally installed JDK, up to version 15) via `./gradlew`.
+. Build the project with http://www.gradle.com[gradle] (you need a locally installed JDK, up to version 15) via `./gradle-tools/gradlew`.
 . Once "BUILD SUCCESSFUL" is shown, you can review the build result under `./build/index.html`
 
 
 You build the output documents with gradle.
 That will produce both pdf and html output in German (DE) _and_ English (EN), unless you modify the configuration.
-
-In case you want to change that, adjust the following part of `build.gradle`:
-
-[source,groovy]
-----
-task buildDocs {
-  group 'Documentation'
-  description 'Grouping task for generating all languages in several formats'
-  dependsOn "renderDE", "renderEN"
-}
-----
-
-In the task "renderDE", certain attributes (aka variables) are defined that configure the corresponding output.
 
 == Additional translations/languages
 include::docs-ext/EXTERNAL_DOCUMENTS_README.adoc[]
